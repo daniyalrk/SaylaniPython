@@ -1,0 +1,39 @@
+=====>Q1<=====
+
+print("Twinkle, twinkle, little star,")
+print("     How I wonder what you are!")
+print("           Up above the world so high,")
+print("           Like a diamond in the sky.")
+print("Twinkle, twinkle, little star,")
+print("      How I wonder what you are")
+
+=====>Q2<=====
+
+from platform import python_version
+print(python_version())
+
+=====>Q3<======
+
+from datetime import datetime
+current_time = datetime.now()
+date_time = current_time.strftime("%d/%m/%Y %H:%M:%S")
+print("date and time =", date_time)
+
+======>Q4<======
+
+import math
+r=float(input())
+p=math.pi
+print("area of circle is",p*r**2)
+
+======>Q5<======
+
+fname=(input())
+lname=(input())
+print(fname[::-1],"",lname[::-1])
+
+======>Q6<======
+
+x=int(input())
+y=int(input())
+print(x+y)
